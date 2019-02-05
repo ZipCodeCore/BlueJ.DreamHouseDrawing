@@ -33,7 +33,8 @@ public class Circle
      */
     public void makeVisible()
     {
-        isVisible = true;
+        isVisible = false
+       ;
         draw();
     }
 
