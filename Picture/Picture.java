@@ -12,10 +12,13 @@
  */
 public class Picture
 {
-    private Square wall;
+    private Square house;
     private Square window;
     private Triangle roof;
-    private Circle sun;
+    private Square ground;
+    private Triangle tree;
+    private Triangle tree1;
+    private Triangle tree2;
 
     /**
      * Constructor for objects of class Picture
@@ -30,29 +33,51 @@ public class Picture
      */
     public void draw()
     {
-        wall = new Square();
-        wall.moveVertical(80);
-        wall.changeSize(100);
-        wall.makeVisible();
+        house = new Square();
+        house.moveHorizontal(20);
+        house.changeSize(200);
+        house.makeVisible();
+        house.changeColor("red");
 
         window = new Square();
-        window.changeColor("black");
-        window.moveHorizontal(20);
+        window.changeColor("white");
+        window.moveHorizontal(50);
         window.moveVertical(100);
         window.makeVisible();
+        window.changeSize(30);
+        
 
         roof = new Triangle();
-        roof.changeSize(50, 140);
-        roof.moveHorizontal(60);
-        roof.moveVertical(70);
+        roof.changeSize(20, 200);
+        roof.moveHorizontal(135);
+        roof.moveVertical(15);
         roof.makeVisible();
+        roof.changeColor("yellow");
 
-        sun = new Circle();
-        sun.changeColor("yellow");
-        sun.moveHorizontal(180);
-        sun.moveVertical(-10);
-        sun.changeSize(60);
-        sun.makeVisible();
+        ground = new Square();
+        ground.changeColor("green");
+        ground.moveHorizontal(-200);
+        ground.moveVertical(200);
+        ground.changeSize(1000);
+        ground.makeVisible();
+        
+        tree = new Triangle();
+        tree.changeColor("blue");
+        tree.changeSize(150,50);
+        tree.moveVertical(100);
+        tree.makeVisible();
+        
+        tree2 = new Triangle();
+        tree2.changeColor("blue");
+        tree2.changeSize(150,50);
+        tree2.moveVertical(50);
+        tree2.makeVisible();
+        
+        tree1 = new Triangle();
+        tree1.changeColor("blue");
+        tree1.changeSize(150,50);
+        tree1.moveVertical(0);
+        tree1.makeVisible();
     }
 
     /**
@@ -60,12 +85,12 @@ public class Picture
      */
     public void setBlackAndWhite()
     {
-        if(wall != null)   // only if it's painted already...
+        if(house != null)   // only if it's painted already...
         {
-            wall.changeColor("black");
+            house.changeColor("black");
             window.changeColor("white");
             roof.changeColor("black");
-            sun.changeColor("black");
+            tree.changeColor("black");
         }
     }
 
@@ -74,12 +99,12 @@ public class Picture
      */
     public void setColor()
     {
-        if(wall != null)   // only if it's painted already...
+        if(house != null)   // only if it's painted already...
         {
-            wall.changeColor("red");
+            house.changeColor("red");
             window.changeColor("black");
             roof.changeColor("green");
-            sun.changeColor("yellow");
+            tree.changeColor("yellow");
         }
     }
 

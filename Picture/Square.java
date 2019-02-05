@@ -23,7 +23,7 @@ public class Square
         size = 30;
         xPosition = 60;
         yPosition = 50;
-        color = "red";
+        color = "white";
         isVisible = false;
     }
 

@@ -1,4 +1,4 @@
-# BlueJ-DreamHouseDrawing
+# FirstLab-Shapes
 
 This is the first BlueJ lab. 
 
@@ -18,6 +18,6 @@ Be sure to
 
 Object of lab is to follow the chapter reading the Chapter 1 pdf in the doc folder. (and Draw a House!)
 
-Can you draw a house with a tree along side? (think `trunk` and `circle` or a tall, skinny `triangle`.)
+# Can you draw a house with a tree along side? (think `trunk` and `circle` or a tall, skinny `triangle`.)
 
-When finished, post a screen shot of your house to the slack chatter channel. 
+# When finished, post a screen shot of your house to the slack chatter channel. 
