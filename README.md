@@ -19,7 +19,7 @@ Be sure to
 * notice how the README follows what was lectured
 * For the second section, use Picture/package.bluej
 * the README.TXT file in Picture/README.TXT
-* Use the TestDraw method in the PictureTest class to run the various tries at your house drawing
+* Use the *DrawTest() method in the PictureTest class* to run the various tries at your house drawing
 * Edit the draw() method in Picture class to get the drawing instructions right
 
 Object of lab is to follow the chapter reading the Chapter 1 pdf in the doc folder. (and Draw a House!)
