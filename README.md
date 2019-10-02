@@ -15,6 +15,8 @@ Be sure to
 * CLONE your version of the repository into your dev directory.
 * For the first section of the lab, open the BlueJ project file Shapes/project.bluej from Finder.
 * For the second section, use Picture/package.bluej
+* Use the TestDraw method in the PictureTest class to run the various tries at your house drawing
+* Edit the draw() method in Picture class to get the drawing instructions right
 
 Object of lab is to follow the chapter reading the Chapter 1 pdf in the doc folder. (and Draw a House!)
 
