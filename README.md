@@ -9,6 +9,8 @@ __BUT__ you need to open these projects, NOT the ones that came with your BlueJ 
 `Project -> Open Project...` to find your `dev/FirstLab-Shapes` folder. Open `Shapes` there. (and the same is
 for `Picture`).
 
+Running your code via TESTS is crucial. Note carefully the instructions on how to run your code in the PictureTest class. This is the way professionals do it.
+
 Be sure to 
 
 * FORK this repository to your own account.
@@ -22,4 +24,4 @@ Object of lab is to follow the chapter reading the Chapter 1 pdf in the doc fold
 
 Can you draw a house with a tree along side? (think `trunk` and `circle` or a tall, skinny `triangle`.)
 
-When finished, post a screen shot of your house to the slack chatter channel. 
+When finished, post a screen shot of your house to the slack CHATTER channel. 
