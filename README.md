@@ -13,8 +13,7 @@ Running your code via TESTS is crucial. Note carefully the instructions on how t
 
 Be sure to 
 
-* FORK this repository to your own account.
-* CLONE your version of the repository into your dev directory.
+* Read this file carefully.
 * For the first section of the lab, open the BlueJ project file Shapes/project.bluej from Finder.
 * For the second section, use Picture/package.bluej
 * Use the TestDraw method in the PictureTest class to run the various tries at your house drawing
