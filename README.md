@@ -9,13 +9,16 @@ __BUT__ you need to open these projects, NOT the ones that came with your BlueJ 
 `Project -> Open Project...` to find your `dev/FirstLab-Shapes` folder. Open `Shapes` there. (and the same is
 for `Picture`).
 
-Running your code via TESTS is crucial. Note carefully the instructions on how to run your code in the PictureTest class. This is the way professionals do it.
+Running your code via **TESTS** *is crucial*. Note carefully the instructions on how to run your code in the PictureTest class. This is the way professionals do it.
 
 Be sure to 
 
-* Read this file carefully.
-* For the first section of the lab, open the BlueJ project file Shapes/project.bluej from Finder.
+* **Read this file carefully.**
+* For the first section of the lab, open the BlueJ project file Shapes/project.bluej from Finder
+* the README.TXT file in Shapes/README.TXT
+* notice how the README follows what was lectured
 * For the second section, use Picture/package.bluej
+* the README.TXT file in Picture/README.TXT
 * Use the TestDraw method in the PictureTest class to run the various tries at your house drawing
 * Edit the draw() method in Picture class to get the drawing instructions right
 
