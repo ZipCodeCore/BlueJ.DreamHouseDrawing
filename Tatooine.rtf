@@ -1,0 +1,138 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \
+/**\
+ * This class represents a simple picture. You can draw the picture using\
+ * the draw method. But wait, there's more: being an electronic picture, it\
+ * can be changed. You can set it to black-and-white display and back to\
+ * colors (only after it's been drawn, of course).\
+ *\
+ * This class was written as an early example for teaching Java with BlueJ.\
+ * \
+ * @author  Michael K\'f6lling and David J. Barnes\
+ * @version 1.1  (24 May 2001)\
+ */\
+public class Picture\
+\{\
+    private Square sky;\
+    private Circle sun;\
+    private Circle farm;\
+    private Circle secondSun;\
+    private Square sand;\
+    private Square door;\
+    private Square door2;\
+    private Triangle spire;\
+\
+    /**\
+     * Constructor for objects of class Picture\
+     */\
+    public Picture()\
+    \{\
+        // nothing to do... instance variables are automatically set to null\
+    \}\
+\
+    /**\
+     * Draw this picture.\
+     */\
+    public void draw()\
+    \{\
+        sky = new Square();\
+        sky.changeColor("magenta");\
+        sky.changeSize(600);\
+        sky.moveHorizontal(-60);\
+        sky.moveVertical(-50);\
+        sky.makeVisible();\
+        \
+        farm = new Circle();\
+        farm.changeColor("white");\
+        farm.moveHorizontal(-110);\
+        farm.moveVertical(75);\
+        farm.changeSize(210);\
+        farm.makeVisible();\
+        \
+        door = new Square();\
+        door.changeColor("black");\
+        door.changeSize(25);\
+        door.moveHorizontal(0);\
+        door.moveVertical(150);\
+        door.makeVisible();\
+        \
+        door2 = new Square();\
+        door2.changeColor("black");\
+        door2.changeSize(25);\
+        door2.moveHorizontal(0);\
+        door2.moveVertical(175);\
+        door2.makeVisible();\
+\
+        sun = new Circle();\
+        sun.changeColor("white");\
+        sun.moveHorizontal(145);\
+        sun.moveVertical(75);\
+        sun.changeSize(30);\
+        sun.makeVisible();\
+        \
+        secondSun = new Circle();\
+        secondSun.changeColor("red");\
+        secondSun.moveHorizontal(200);\
+        secondSun.moveVertical(120);\
+        secondSun.changeSize(30);\
+        secondSun.makeVisible();\
+        \
+        sand = new Square();\
+        sand.changeColor("yellow");\
+        sand.changeSize(300);\
+        sand.moveHorizontal(-60);\
+        sand.moveVertical(200);\
+        sand.makeVisible();\
+        \
+        spire = new Triangle();\
+        spire.changeColor("black");\
+        spire.changeSize(45,20);\
+        spire.moveVertical(205);\
+        spire.moveHorizontal(220);\
+        spire.makeVisible();\
+    \}\
+\
+    /**\
+     * Change this picture to black/white display\
+     */\
+    public void setBlackAndWhite()\
+    \{\
+        if(farm != null)   // only if it's painted already...\
+        \{\
+            sky.changeColor("white");\
+            secondSun.changeColor("black");\
+            sun.changeColor("black");\
+            farm.changeColor("black");\
+            door.changeColor("white");\
+            door2.changeColor("white");\
+            sand.changeColor("black");\
+            spire.changeColor("white");\
+        \}\
+    \}\
+\
+    /**\
+     * Change this picture to use color display\
+     */\
+    public void setColor()\
+    \{\
+        if(farm != null)   // only if it's painted already...\
+        \{\
+            sky.changeColor("magenta");\
+            secondSun.changeColor("red");\
+            sun.changeColor("white");\
+            farm.changeColor("white");\
+            door.changeColor("black");\
+            door2.changeColor("black");\
+            sand.changeColor("yellow");\
+            spire.changeColor("black");\
+        \}\
+    \}\
+\
+\}\
+}
